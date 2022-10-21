@@ -117,7 +117,7 @@ tags
 
 # PlatformIO files/dirs
 /.pio*
-!.pio/buiLd/LPC1769/firmware.bin
+!.pio/build/LPC1769/firmware.bin
 .pioenvs
 .piolibdeps
 .clang_complete
