@@ -836,7 +836,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-#define S_CURVE_ACCELERATION
+//#define S_CURVE_ACCELERATION
 
 //===========================================================================
 //============================= Z Probe Options =============================
@@ -1524,15 +1524,15 @@
 #define PREHEAT_2_TEMP_BED    80
 #define PREHEAT_2_FAN_SPEED     255 // Value from 0 to 255
 
-#define PREHEAT_2_LABEL       "PETG"
-#define PREHEAT_2_TEMP_HOTEND 240
-#define PREHEAT_2_TEMP_BED    80
-#define PREHEAT_2_FAN_SPEED     255 // Value from 0 to 255
+#define PREHEAT_3_LABEL       "PETG"
+#define PREHEAT_3_TEMP_HOTEND 240
+#define PREHEAT_3_TEMP_BED    80
+#define PREHEAT_3_FAN_SPEED     255 // Value from 0 to 255
 
-#define PREHEAT_2_LABEL       "TPU"
-#define PREHEAT_2_TEMP_HOTEND 240
-#define PREHEAT_2_TEMP_BED    50
-#define PREHEAT_2_FAN_SPEED     255 // Value from 0 to 255
+#define PREHEAT_4_LABEL       "TPU"
+#define PREHEAT_4_TEMP_HOTEND 240
+#define PREHEAT_4_TEMP_BED    50
+#define PREHEAT_4_FAN_SPEED     255 // Value from 0 to 255
 
 /**
  * Nozzle Park
